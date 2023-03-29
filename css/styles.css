@@ -106,12 +106,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* section our-team*/
 .our-team {
   background-color: var(--section-our-team-color);
 }
-.card {
+.card-item {
   background-color: var(--hero-text-color)
 }
 
