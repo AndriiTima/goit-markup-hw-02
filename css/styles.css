@@ -57,11 +57,11 @@ body {
 
 .header-address {
   font-style: normal;
-  }
+}
 
 .auth-nav .contacts {
   color: var(--primari-text-color);
-  }
+}
 /* hero setion */
 .hero {
   background-color: var(--title-text-color);
@@ -80,7 +80,10 @@ body {
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .but:hover,
 .but:focus {
@@ -96,6 +99,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .title {
@@ -107,6 +111,10 @@ body {
 .our-team {
   background-color: var(--section-our-team-color);
 }
+.card {
+  background-color: var(--hero-text-color)
+}
+
 
 /* footer */
 .footer {
@@ -120,13 +128,12 @@ body {
 
 /* portfolio */
 .btn {
-   color: var(--accent-color);
+  color: var(--accent-color);
   background-color: var(--button-color);
   font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
   border: none;
-  
 }
 .btn:hover {
   color: var(--hero-text-color);
