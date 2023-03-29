@@ -113,7 +113,7 @@ body {
   background-color: var(--section-our-team-color);
 }
 .card-item {
-  background-color: var(--hero-text-color)
+  background-color: var(--hero-text-color);
 }
 
 
