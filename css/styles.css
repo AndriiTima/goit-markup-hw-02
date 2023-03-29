@@ -43,9 +43,9 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
 }
-.link.active-page {
+/* .link.active-page {
   color: var(--accent-color);
-}
+} */
 
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -54,10 +54,14 @@ body {
   color: var(--hover-color);
 }
 /* contacts */
+
+.header-address {
+  font-style: normal;
+  }
+
 .auth-nav .contacts {
   color: var(--primari-text-color);
-  font-style: normal;
-}
+  }
 /* hero setion */
 .hero {
   background-color: var(--title-text-color);
