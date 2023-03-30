@@ -116,7 +116,6 @@ body {
   background-color: var(--hero-text-color);
 }
 
-
 /* footer */
 .footer {
   background-color: var(--title-text-color);
@@ -130,13 +129,16 @@ body {
 /* portfolio */
 .btn {
   color: var(--accent-color);
-  background-color: var(--button-color);
+  background-color: var(--footer-text-color);
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   color: var(--hero-text-color);
   background-color: var(--hover-color);
 }
